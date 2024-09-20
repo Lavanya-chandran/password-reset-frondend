@@ -26,7 +26,7 @@ const Reset_Context_API = ({ children }) => {
   const notifyError = (message) => toast.error(message, toastStyle);
   const notifyInfo = (message) => toast.info(message, toastStyle);
 
-  const backendUrl = "localhost://3000"; //getting backendUrl from .env file
+  const backendUrl = "https://password-reset-backend-1-jhuj.onrender.com"; //getting backendUrl from .env file
   const navigate = useNavigate(); // Initialize navigate
 
   //declaring some necessary state variables
